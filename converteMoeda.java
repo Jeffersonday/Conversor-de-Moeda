@@ -47,7 +47,7 @@ public class converteMoeda {
         } else if (opcao == 4) {
             String valor = JOptionPane.showInputDialog("Digite um valor em Euro.");
             double valorEuro = Double.parseDouble(valor);
-            final double euro = 5.56;
+            final double euro = 5.54;
             double valorConvertido = valorEuro * euro;
             String msg = "O valor em Real é R$  " + valorConvertido;
             JOptionPane.showMessageDialog(null, msg);
